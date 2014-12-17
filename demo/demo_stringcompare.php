@@ -1,7 +1,7 @@
 <UL><?php
 
 // testing the CompareStrings method
-require_once('../phasher.class.php');
+require_once('../src/PHasher.php');
 		
 $I = PHasher::Instance();
 

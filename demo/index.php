@@ -10,7 +10,7 @@ class PHasher_Test {
 	
 	function __construct(){
 
-		require_once('../phasher.class.php');
+		require_once('../src/PHasher.php');
 		
 		$this->I = PHasher::Instance();
 		
